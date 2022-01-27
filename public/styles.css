@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    padding: 0 16px;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    background: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: "Mclaren", cursive;
+}
+.note {
+    position: relative;
+    display: flex;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+.note p {
+    width: 80%;
+    display: inline;
+    width: max-content;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.note button{
+    display: inline;
+    width: max-content;
+    height: max-content;
+    margin-left: 10px;
+    border: none;
+    background-color: #fff;
+}
+.note button i{
+    position: absolute;
+    color: #f54013;
+    right: 10px;
+    bottom: 10px;
+    margin: auto;
+    height: max-content;
+}
+.Notice {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.Notice textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+.Notice button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    width: 36px;
+    height: 36px;
+    font-size: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
